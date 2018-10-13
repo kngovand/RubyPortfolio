@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A portfolio website by Kevin Ngovanduc</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <ul>
+    <li><a class="active" href="/">K</a></li>
+    <li><a href="/welcome/projects.html">Projects</a></li>
+    <li><a href="/welcome/resume.html">Resume</a></li>
+    <li style="float:right"><a href="/welcome/contact.html">Contact</a></li>
+    <li style="float:right"><a href="/welcome/about.html">About me</a></li>
+  </ul>
+
+  <body>
+    <%= yield %>
+  </body>
+  
+  <div class ="footer"> @Kevin Ngovanduc</div>
+</html>

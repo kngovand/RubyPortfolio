@@ -1,0 +1,49 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.center {
+    text-align: center;
+}
+
+.headerFont {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.bodyFont {
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #000000;
+    color:rgb(110, 106, 106);
+    text-align: right;
+    position: fixed;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+}
+
+h3 {
+    font-style: italic;
+    border-bottom: 3px solid rgb(24, 22, 22);
+    display: inline;
+    padding: 0 150px;
+    padding-bottom: 3px;
+}
+
+h2 {
+ a{
+     color:rgb(23, 19, 223);
+     text-decoration: underline;
+ }
+
+ a:hover {
+     color:rgb(175, 175, 199);
+ }
+}
+
+
+
+
