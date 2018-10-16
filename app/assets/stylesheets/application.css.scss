@@ -30,7 +30,7 @@ ul {
 }
 
 li {
-    float:left
+    float:left;
 }
 
 li a {
@@ -42,7 +42,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.active .active2) {
     background-color: #111;
     text-decoration: none;
 }
@@ -52,9 +52,15 @@ li a:hover:not(.active) {
     text-decoration: none;
 }
 
+.active2 {
+    background-color:#181a91;
+    text-decoration: none;
+}
+
 body {
-    background-image: url(https://hdwallsource.com/img/2014/9/subtle-blur-wallpaper-26338-27029-hd-wallpapers.jpg);
+    background-image: url(http://eskipaper.com/images/blurred-2.jpg);
     background-attachment: fixed;
+    
     padding-top: 50px;
     color: rgb(12, 11, 11);
     //font-family: Georgia, 'Times New Roman', Times, serif;
@@ -62,4 +68,84 @@ body {
         Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
         'Helvetica Neue', sans-serif;
 }
+
+#webapp-logo {
+    background-image: url();
+    height:200px;
+    width:230px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; 
+    background:transparent url(http://languageinstituteoftheamericas.com/wp-content/uploads/2016/11/ruby-300x300.png);
+}
+
+#softwaredev-logo {
+    background-image:url();
+    height:200px;
+    width:250px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background:transparent url(https://d30y9cdsu7xlg0.cloudfront.net/png/62495-200.png)center;
+}
+
+#android-logo {
+    height:200px;
+    width:250px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background:transparent url(https://findicons.com/files/icons/820/simply_google/256/google_android.png);
+}
+
+#website-logo {
+    height:200px;
+    width:250px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background:transparent url(https://www.bootstrapdash.com/wp-content/uploads/2017/06/bootstrap-logo.png) center;
+}
+
+.container {
+    position: relative;
+    width: 33%;
+    float: left;
+}
+
+.image {
+    opacity: 1;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
 
