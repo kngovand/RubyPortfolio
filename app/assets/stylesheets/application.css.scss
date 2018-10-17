@@ -26,11 +26,14 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    text-decoration: none;
 }
 
 li {
     float:left;
+}
+
+a {
+    text-decoration: none;
 }
 
 li a {
@@ -39,22 +42,18 @@ li a {
     font-weight: bold;
     text-align: center;
     padding: 12px 14px;
-    text-decoration: none;
 }
 
 li a:hover:not(.active .active2) {
     background-color: #111;
-    text-decoration: none;
 }
 
 .active {
     background-color:#207c23;
-    text-decoration: none;
 }
 
 .active2 {
     background-color:#181a91;
-    text-decoration: none;
 }
 
 body {
@@ -124,7 +123,7 @@ body {
 
 .middle {
     transition: .5s ease;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -142,10 +141,11 @@ body {
 }
 
 .text {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgba(182, 180, 180, 0.6);
+    color: rgba(2, 2, 2, 0.938);
     font-size: 16px;
-    padding: 16px 32px;
+    padding: 12px 12px;
+    font-weight: bold;
 }
 
 
