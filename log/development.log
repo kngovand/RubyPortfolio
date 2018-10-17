@@ -8540,3 +8540,59 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 8907ms (Views: 8855.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:00:25 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8437ms (Views: 8332.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:01:28 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8845ms (Views: 8767.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:02:18 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8849ms (Views: 8771.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/resume.html" for 127.0.0.1 at 2018-10-16 19:03:19 -0600
+Processing by WelcomeController#resume as HTML
+  Rendering welcome/resume.html.erb within layouts/application
+  Rendered welcome/resume.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 359ms (Views: 283.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/about.html" for 127.0.0.1 at 2018-10-16 19:03:34 -0600
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 900ms (Views: 742.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-16 19:05:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 287ms (Views: 229.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/projects.html" for 127.0.0.1 at 2018-10-16 19:07:17 -0600
+Processing by WelcomeController#projects as HTML
+  Rendering welcome/projects.html.erb within layouts/application
+  Rendered welcome/projects.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 301ms (Views: 236.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/about.html" for 127.0.0.1 at 2018-10-16 19:07:57 -0600
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 301ms (Views: 249.5ms | ActiveRecord: 0.0ms)
+
+
