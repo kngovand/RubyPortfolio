@@ -19,6 +19,11 @@
 
 p {
     font-size: 18px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
 
     //min-width: 700px;
 }
@@ -62,6 +67,11 @@ li a:hover:not(.active .active2) {
 .active2 {
     background-color:#121480;
 }
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
 
 body {
     background:
@@ -165,7 +175,37 @@ body {
     padding: 12px 12px;
     font-weight: bolder;
     font-style: italic;
+}
 
+.iframe-container {
+    display: block;
+}
+
+@media only screen and (max-device-width: 480px) {
+    
+    p {
+        margin: 10px;
+    }
+    
+    body {
+        margin-top:50px;
+    }
+    .image {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    }
+
+    h2 {
+        margin: 20px;
+    }
+    h3 {
+        font-style: italic;
+    }
+
+    .iframe-container {
+        display: none;
+    }
 }
 
 

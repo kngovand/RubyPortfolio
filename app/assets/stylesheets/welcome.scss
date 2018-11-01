@@ -25,6 +25,8 @@
     width: 100%;
 }
 
+
+
 h3 {
     font-style: italic;
     border-bottom: 3px solid rgb(24, 22, 22);
@@ -46,6 +48,13 @@ h2 {
 
 .right {
     text-align: right;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    h3 {
+        font-style: italic;
+    }
 }
 
 
